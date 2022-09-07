@@ -1,0 +1,150 @@
+
+<style>
+  .flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  float: left;  
+  width: 100%;
+  justify-content: space-between;
+}
+
+.flex-container2 {
+  margin: 0;
+  list-style: none;
+  
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flexbox;
+  float: right;  
+  width: 100%;
+  justify-content: flex-end;
+
+}
+
+
+.stretch { 
+  -webkit-align-items: stretch; 
+  align-items: stretch; 
+
+}  
+
+
+.flex-item {
+  width: auto;
+  margin: 16px;
+  font-family: 'PT Mono', monospace;    
+font-size: 0.8rem; 
+  line-height: 24px;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+
+}  
+
+
+.flex-item2 {
+  width: 100%;
+  margin: 30px;
+  font-family: 'PT Mono', monospace;    
+font-size: 0.8rem; 
+  line-height: 24px;
+  font-weight: bold;
+  text-align: center;
+}  
+
+
+
+/* Responsive layout - makes the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  float: left;
+}
+
+.flex-container2 {
+  margin: 0;
+  list-style: none;
+  
+  flex-direction: column;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flexbox;
+  float: right;  
+  width: 100%;
+  justify-content: flex-end;
+
+}
+
+.flex-item {
+  margin: 16px;
+  line-height: 24px;
+  font-family: 'PT Mono', monospace;    
+font-size: 0.8rem; 
+  font-weight: bold;
+  text-align: center;
+}  
+
+.flex-item2 {
+  margin: 16px;
+  font-family: 'PT Mono', monospace;    
+font-size: 0.8rem; 
+  line-height: 24px;
+  font-weight: bold;
+  text-align: center;
+}  
+
+
+.hidden-mobile {
+          display: none;
+        }
+}
+
+</style>
+
+<ul class="flex-container stretch">
+    <li class="flex-item"><code3>
+        <span style="font-weight: 700">Migrant Worker Death Map</style>
+        </code3></li>
+
+    <li class="flex-item">
+        <ul class="flex-container2">
+    
+        <li class="flex-item-2">
+            <a href="instagram.com" target="blank"><img src="https://images.squarespace-cdn.com/content/629ded60688da86e8aff46af/04d43c5c-6860-4894-85f6-c3347797572c/instagram-brands+1-bl.png?content-type=image%2Fpng" width="20px"/></a>
+      </li> 
+      <li class="flex-item-2"><div id="hidden-mobile">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </div></li>
+      <li class="flex-item-2">
+        <code3>Contact Us</code3></li>
+
+    </li>
+</ul>
+  </ul>
+  
