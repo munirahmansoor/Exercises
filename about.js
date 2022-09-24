@@ -27,12 +27,12 @@ console.log('Hello ' + name + ' ' + surName);
 //calculates a value
 //greet value argument
 
-function square(number){
-   return number * number;
-}
+//function square(number){
+  // return number * number;//
+//}//
 
-console.log(square(2));
-
+//console.log(square(2));//
+document.getElementById('greeting').textContent = greet;
 
 
 
@@ -43,3 +43,10 @@ console.log(square(2));
 // cannot oontain space or hyphen (-)
 // names are case-sensitive 
 
+let score = 0;
+
+const headerTag = document.querySelector ("h1")
+
+headerTag.addEventListener("click", function() {
+    score = score + 1
+} );
